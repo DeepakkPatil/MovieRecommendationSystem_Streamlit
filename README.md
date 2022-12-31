@@ -27,18 +27,15 @@ And pickle library to make pickle files to be used to extract  data in app.py an
 
 1) In app.py file
 
-<code>
+```
 similarity=pickle.load(open('similarity.pkl','rb')) 
-</code>
-
-<br>
-<br>
+```
 
 2) In RecommendationSystem.ipynb
 
-<code>
+```
 pickle.dump(similarity,open('similarity.pkl','wb')) 
-</code>
+```
 
 <h3>API</h3>
 
